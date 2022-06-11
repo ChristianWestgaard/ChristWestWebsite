@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nettside 2.0</title>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0524a46759.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/CSS/style.css">
+        <script src="/app.js"></script>
+
+
+    </head>
+        <body>
+            <!--Nav-->
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="/index.html" style="margin-left:30px ;">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Html/Erfaring.html">Erfaring</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Html/omMeg.html">Om Meg</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Html/Utdanning.html">Utdanning</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+
+            <section class="row" style="padding-top: 5%;">
+                <div class="column ErfaringImg col-md-5">
+                    <img class="ErfaringImg1 images" src="/img/HvittHårChristian.png" alt="">
+                </div>
+                <div class="column ErfaringText col-md-5">
+                    <h3>Hvor jeg har jobbet:</h2>
+                    <h4>Elkjøp Skøyen</h4>
+                    <h6>Jobbet som salgsperson på spill avdelingen <br> og som hovedansvarlig på klikk og hent</h4> <br>
+                    <h4>Elkjøp Sandvika</h4>
+                    <h6>Min jobb handlet hovedsakelig om å finne fram, <br> gjøre klar og å overrekke varene til kunden <br> I mange tilfeller hjalp jeg også kunder finne fram <br> til varer og ga dem veiledning om produktene.</h4>
+                </div>
+                <div style="padding-left:10%; padding-top:5% ;">
+                  <h3>Prosjekter</h3> <br>
+                  <h4>
+                  <a class="gamesIMade" href="Simon 2.0/index.html" target="_blank">Simon Game</a> <i class="fas fa-border-all fa-2x"></i> <br><br><br>
+                  <a class="gamesIMade" href="Dicee/dicee.html" target="_blank">Dice Game</a> <i class="fas fa-dice fa-2x"></i> <br><br><br>
+                  <a class="gamesIMade" href="Drum Kit/index.html" target="_blank">Drum Game</a> <i class="fas fa-drum fa-2x"></i> 
+                  </h4>
+                </div>
+                <div class="fieldsetTest">
+                  <fieldset>
+                  <legend>Qualities i master</legend>
+                  <div class="subcontainer">
+                    <input type="radio" id="white" value="white">
+                    <label for="Front end development">Front end development</label>
+                  </div>
+                  <div class="subcontainer">
+                    <input type="radio" id="white" value="white">
+                    <label for="Customare care">Handeling customers</label>
+                  </div>
+                  <div class="subcontainer">
+                    <input type="radio" id="white" value="white">
+                    <label for="Multitasking">Multitasking</label>
+                  </div>
+                  <div class="subcontainer">
+                    <input type="radio" id="white" value="white">
+                    <label for="StressManagement">Work well under pressure</label>
+                  </div>
+                </fieldset>
+                </div>
+            </section>
+            <footer id="footer">
+              <h5>Christian Westgaard</h5>
+              <div>
+                <a href="mailto:westgaard04@gmail.com" target="_blank" class="fas fa-envelope footericons fa-2x"></a>
+                <a href="https://www.facebook.com/christian.westgaard.14" target="_blank" class="fab fa-facebook footericons  fa-2x"></a>
+                <a href="https://www.instagram.com/C_westgaard/" target="_blank" class="fab fa-instagram footericons  fa-2x"></a>
+                <a href="https://github.com/ChristianWestgaard/" target="_blank" class="fab fa-github footericons  fa-2x"></a>
+              </div>
+              <div >
+              <a class="footerItem" href="/Html/Kontakt Meg.html">Kontakt Meg</a>
+            </div>
+            </footer>
+</body>
+</html>
